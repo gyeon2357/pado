@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html lang="ko" style="--vh: 2.64px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=1"
+    />
+
+    <title>시대기물연구소 파도</title>
+    <meta
+      name="description"
+      content="시대기물연구소 〈파도〉는 전통의 깊은 토대 위에서 지금 이 시대의 이야기를 담는 기물을 연구하고 제안합니다."
+    />
+
+    <meta itemprop="name" content="PADO" />
+    <meta
+      name="keywords"
+      content="PADO, 시대기물연구소, 파도, 새로운 기물, 기물, 다기, 다구, 차도구"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/favicon/favicon-48x48.png"
+      sizes="48x48"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="PADO" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#000000"
+    />
+
+    <!-- og-image -->
+    <meta itemprop="image" content="./assets/favicon/og-image.jpg" />
+    <meta property="og:url" content="https://pado.sansuhwa.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="PADO" />
+    <meta property="og:title" content="PADO" />
+    <meta
+      property="og:description"
+      content="시대기물연구소 〈파도〉는 전통의 깊은 토대 위에서 지금 이 시대의 이야기를 담는 기물을 연구하고 제안합니다."
+    />
+    <meta property="og:image" content="./assets/favicon/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PADO" />
+    <meta
+      name="twitter:description"
+      content="시대기물연구소 〈파도〉는 전통의 깊은 토대 위에서 지금 이 시대의 이야기를 담는 기물을 연구하고 제안합니다."
+    />
+    <meta name="twitter:image" content="./assets/favicon/og-image.jpg" />
+
+    <!-- web-app-image -->
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)"
+      href="./assets/favicon/apple-touch-startup-image-320x460.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+      href="./assets/favicon/apple-touch-startup-image-640x920.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+      href="./assets/favicon/apple-touch-startup-image-640x1096.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+      href="./assets/favicon/apple-touch-startup-image-750x1294.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)"
+      href="./assets/favicon/apple-touch-startup-image-1182x2208.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)"
+      href="./assets/favicon/apple-touch-startup-image-1242x2148.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)"
+      href="./assets/favicon/apple-touch-startup-image-1024x748.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"
+      href="./assets/favicon/apple-touch-startup-image-2048x1496.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)"
+      href="./assets/favicon/apple-touch-startup-image-1004x768.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)"
+      href="./assets/favicon/apple-touch-startup-image-2008x1536.png"
+    />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" />
+    <meta name="application-name" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-config"
+      content="./assets/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#fff" />
+
+    <!-- <meta name="msapplication-TileColor" content="#000000" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="./assets/css/slick.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K8YHW7GRXK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-K8YHW7GRXK");
+    </script>
+  </head>
+
+  <body class="home">
+    <div class="overflow__wrapper">
+      <header id="header">
+        <div class="header__sitetitle">
+          <div class="header__sitetitle__item item--1" data-sort="random">
+            <a href="#"> <img src="./assets/img/logo2.svg" /> </a>
+          </div>
+        </div>
+
+        <div class="header__menutoggle">
+          <div class="header__menutoggle__item">
+            <span class="mobile">Menu</span>
+            <span class="desktop">Menu</span>
+          </div>
+        </div>
+      </header>
+
+      <aside>
+        <dialog id="mainPopup" class="fade" open>
+          <p>
+            <a href="./information/#video1"
+              ><span>◆</span> 1-1. 새로운 차의 맛: 작가와의 만남</a
+            >
+          </p>
+          <form method="dialog">
+            <button id="closeDialog" autofocus>Close</button>
+          </form>
+        </dialog>
+      </aside>
+
+      <div id="menu__header" class="hidden mobile"></div>
+
+      <div id="menu" class="hidden preload" style="height: unset; opacity: 1">
+        <div id="swup" class="menu__wrapper">
+          <div class="menu__item contact">
+            <p>
+              The Institute of Object 〈PADO〉 <br />
+
+              Seoul, Korea
+            </p>
+          </div>
+
+          <div class="menu__item projectlist">
+            <a href="./newflavorsoftea/1-1-cjh-c/" class="projectlist__item">
+              <span class="item--projectnumber">03</span>
+              <span class="item--projectname">
+                <p>1-1-cjh-C</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;조장현</p>
+              </span>
+            </a>
+
+            <a href="./newflavorsoftea/1-1-cjh-p/" class="projectlist__item">
+              <span class="item--projectnumber">03</span>
+              <span class="item--projectname">
+                <p>1-1-cjh-P</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;조장현</p>
+              </span>
+            </a>
+
+            <a href="./newflavorsoftea/1-1-cjh-t/" class="projectlist__item">
+              <span class="item--projectnumber">03</span>
+              <span class="item--projectname">
+                <p>1-1-cjh-T</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;조장현</p>
+              </span>
+            </a>
+
+            <a href="./newflavorsoftea/1-1-hwk-c/" class="projectlist__item">
+              <span class="item--projectnumber">02</span>
+              <span class="item--projectname">
+                <p>1-1-hwk-C</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;홍우경</p>
+              </span>
+            </a>
+            <a href="./newflavorsoftea/1-1-hwk-p/" class="projectlist__item">
+              <span class="item--projectnumber">02</span>
+              <span class="item--projectname">
+                <p>1-1-hwk-P</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;홍우경</p>
+              </span>
+            </a>
+
+            <a href="./newflavorsoftea/1-1-hwk-t/" class="projectlist__item">
+              <span class="item--projectnumber">02</span>
+              <span class="item--projectname">
+                <p>1-1-hwk-T</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;홍우경</p>
+              </span>
+            </a>
+
+            <a href="./newflavorsoftea/1-1-kjh-c/" class="projectlist__item">
+              <span class="item--projectnumber">01</span>
+              <span class="item--projectname">
+                <p>1-1-kjh-C</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;김종훈</p>
+              </span>
+            </a>
+            <a href="./newflavorsoftea/1-1-kjh-p/" class="projectlist__item">
+              <span class="item--projectnumber">01</span>
+              <span class="item--projectname">
+                <p>1-1-kjh-P</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;김종훈</p>
+              </span>
+            </a>
+            <a href="./newflavorsoftea/1-1-kjh-t/" class="projectlist__item">
+              <span class="item--projectnumber">01</span>
+              <span class="item--projectname">
+                <p>1-1-kjh-T</p>
+              </span>
+              <span class="item--projectname">
+                <p>&nbsp;&nbsp;김종훈</p>
+              </span>
+            </a>
+          </div>
+
+          <div class="header__menutoggle__lang language__item visible ko">
+            <span class="language--active">
+              <a href="#" hreflang="ko"> </a>
+            </span>
+
+            <span>
+              <a href="#" hreflang="en"></a>
+            </span>
+          </div>
+
+          <div class="menu__item pages">
+            <div class="pages__item">
+              <a href="./information/" class="page--information">
+                Information<sup>Update</sup>
+              </a>
+            </div>
+
+            <div class="pages__item">
+              <a href="./legal-notice/"> Legal Notice </a>
+            </div>
+
+            <div class="menu_bottom">
+              <div class="pages__item">
+                <button id="theme-toggle"><em></em> Dark/Light mode</button>
+              </div>
+
+              <!-- <div class="pages__item">
+                <a href="./privacy-policy/"> Privacy Policy </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <main id="swup" class="transition-fade">
+        <div id="mapping__header" class="page__header">
+          <a href="" class="projectlink__url url--inactive">
+            <div class="projecttitle__number"></div>
+
+            <div class="projecttitle__name__wrapper">
+              <span class="projecttitle__name"></span>
+            </div>
+          </a>
+
+          <div class="mapping__sort">
+            <div
+              class="mapping__sort__button mapping__sort--random sort--active"
+              data-sort="random"
+            >
+              <span class="ranbtn">
+                <img src="./assets/img/shuffle.png" />&nbsp;&nbsp;Shuffle</span
+              >
+            </div>
+            <div
+              class="mapping__sort__button mapping__sort--chronological sort--inactive"
+              data-sort="default"
+            >
+              <img src="./assets/img/inorder.png" />&nbsp;&nbsp;In order
+            </div>
+          </div>
+        </div>
+
+        <!-- <div id="information">
+          <div class="information__item information__text">
+            <p>
+              header txt
+            </p>
+          </div>
+        </div> -->
+
+        <!-- contents -->
+
+        <div id="mapping">
+          <!-- newflavorsoftea/1-1-cjh -->
+          <div
+            class="mix mapping__item"
+            data-project="9"
+            data-link="./newflavorsoftea/1-1-cjh-c/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-c001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="9"
+            data-link="./newflavorsoftea/1-1-cjh-c/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-c002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">2</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="9"
+            data-link="./newflavorsoftea/1-1-cjh-c/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-c003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">8</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">3</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">5</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p004_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">8</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p005_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">11</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p006_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">14</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p007_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">17</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p008_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">19</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p009_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">22</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p010_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">25</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p011_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">28</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p012_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">32</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p013_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">36</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p014_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">40</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p015_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">43</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p016_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">45</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p017_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">47</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p018_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">49</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p019_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">50</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="8"
+            data-link="./newflavorsoftea/1-1-cjh-p/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-p020_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">52</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="7"
+            data-link="./newflavorsoftea/1-1-cjh-t/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-t001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="7"
+            data-link="./newflavorsoftea/1-1-cjh-t/"
+            data-dominantcolor-hex="#E95504"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-cjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-cjh-t002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-cjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">3</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >조장현 Cho Jang-Hyun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- newflavorsoftea/1-1-hwk -->
+
+          <div
+            class="mix mapping__item"
+            data-project="6"
+            data-link="./newflavorsoftea/1-1-hwk-c/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-c001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="5"
+            data-link="./newflavorsoftea/1-1-hwk-p/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-p001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="5"
+            data-link="./newflavorsoftea/1-1-hwk-p/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-p002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">6</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="5"
+            data-link="./newflavorsoftea/1-1-hwk-p/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-p003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">9</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="4"
+            data-link="./newflavorsoftea/1-1-hwk-t/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-t001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mix mapping__item"
+            data-project="4"
+            data-link="./newflavorsoftea/1-1-hwk-t/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-t002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">3</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="4"
+            data-link="./newflavorsoftea/1-1-hwk-t/"
+            data-dominantcolor-hex="#67818A"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-hwk-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-hwk-t003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-hwk-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">5</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >홍우경 Hong Woo-Kyung</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- newflavorsoftea/1-1-kjh -->
+          <div
+            class="mix mapping__item"
+            data-project="3"
+            data-link="./newflavorsoftea/1-1-kjh-c/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-c001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="3"
+            data-link="./newflavorsoftea/1-1-kjh-c/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-c002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">4</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mix mapping__item"
+            data-project="3"
+            data-link="./newflavorsoftea/1-1-kjh-c/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-c003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">8</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mix mapping__item"
+            data-project="3"
+            data-link="./newflavorsoftea/1-1-kjh-c/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-c/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-c004_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-C</span>
+                    &nbsp;
+                    <span class="item__imgnumber">10</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="2"
+            data-link="./newflavorsoftea/1-1-kjh-p/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-p001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="2"
+            data-link="./newflavorsoftea/1-1-kjh-p/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-p002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">4</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="2"
+            data-link="./newflavorsoftea/1-1-kjh-p/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-p003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">9</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="2"
+            data-link="./newflavorsoftea/1-1-kjh-p/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-p004_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">13</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="2"
+            data-link="./newflavorsoftea/1-1-kjh-p/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-p/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-p005_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-P</span>
+                    &nbsp;
+                    <span class="item__imgnumber">18</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t001_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">1</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t002_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">4</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t003_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">7</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t004_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">13</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t005_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">17</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t006_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">21</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t007_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">24</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mix mapping__item"
+            data-project="1"
+            data-link="./newflavorsoftea/1-1-kjh-t/"
+            data-dominantcolor-hex="#84733E"
+          >
+            <div class="item__wrapper">
+              <div class="item__img__wrapper">
+                <div class="item__link__wrapper">
+                  <a
+                    href="./newflavorsoftea/1-1-kjh-t/"
+                    class="mapping__item__link disabled"
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://ik.imagekit.io/11195/sansuhwa/public/1-1-kjh-t008_1.jpg?tr=w-200"
+                      srcset=""
+                      data-srcset=""
+                      data-sizes="auto"
+                      class="lazyload item__img"
+                      width="2000"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="item__text hidden">
+                  <span class="item__count">
+                    <span class="item__projectnumber">1-1-kjh-T</span>
+                    &nbsp;
+                    <span class="item__imgnumber">28</span>
+                  </span>
+
+                  <span class="item__projectname hidden"
+                    >김종훈 Kim Jong-Hun</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./assets/js/tinycolor-min.js"></script>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/mixitup.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.zoom.min.js"></script>
+    <script src="./assets/js/functions.min.js"></script>
+    <script src="./assets/js/detail-functions.js"></script>
+    <script src="./assets/js/bundle.js"></script>
+
+    <script src="./assets/js/main-functions.js"></script>
+  </body>
+</html>
